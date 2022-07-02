@@ -1,6 +1,6 @@
 let circuits, circuit;
 
-fetch('./json/circuits.json')
+fetch('../../json/circuits.json')
     .then(response => response.json())
     .then(data => circuits = data)
     .catch((error) => Swal.fire({
