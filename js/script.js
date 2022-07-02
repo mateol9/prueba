@@ -1,13 +1,15 @@
-let circuits, circuit;
+let circuit;
 
-fetch('../../json/circuits.json')
-    .then(response => response.json())
-    .then(data => circuits = data)
-    .catch((error) => Swal.fire({
-        icon: 'error',
-        title: 'Error',
-        text: error
-    }));
+import circuits from "../JSON/circuits.json" assert {type: "json"};
+
+// fetch('../../json/circuits.json')
+//     .then(response => response.json())
+//     .then(data => circuits = data)
+//     .catch((error) => Swal.fire({
+//         icon: 'error',
+//         title: 'Error',
+//         text: error
+//     }));
 
 const dropMenu = document.getElementById("dropMenu"),
     circuitInfo = document.getElementById("circuitInfo"),
@@ -220,10 +222,8 @@ const reset = () =>{
 }
 
 const main = () =>{
-    setTimeout(() => {
-        createDropMenuItem();
-        userSelection();
-    }, 5000);
+    createDropMenuItem();
+    userSelection();
     loadLS();
     calc();
     reset();
