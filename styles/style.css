@@ -1,0 +1,113 @@
+body{
+    background-color: #103f87;
+}
+
+.navbar{
+    background: linear-gradient(to top, #103f87, #365b93);
+}
+
+.navbar-nav{
+    gap: 10px;
+}
+
+.dropdown-menu{
+    background-color:#0d2850;
+}
+
+.dropdown-item{
+    color: white;
+}
+
+.dropdown-item:hover{
+    cursor: pointer;
+}
+
+.btn{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid red;
+}
+
+.container-base{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1{
+    background-color: #103f87;
+    margin-bottom: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.title{
+    text-align: center;
+    border-bottom: red 3px solid;
+}
+
+.subtitle{
+    text-align: center;
+}
+
+.container2{
+    width: 60%;
+    border: 5px solid red;
+    background-color: #0d2850;
+    padding-top: 10px;
+    border-radius: 25px;
+}
+
+.text{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.f1-img{
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+.container3{
+    margin: 50px 0;
+}
+
+.text-subtitle{
+    background-color: #0d2850;
+    padding: 20px;
+    width: 100%;
+}
+
+.inputTimes{
+    width: 65px;
+    border-style: outset;
+    border-radius: 5px;
+    background-color: #103f87;
+    color: rgb(188, 188, 188);
+}
+.inputTimes::placeholder{
+    color: rgb(188, 188, 188);
+}
+
+.green{
+    color: green;
+}
+.red{
+    color: red;
+}
+
+.table{
+    background-color: #0d2850;
+    color: rgb(188, 188, 188);
+    border: solid 5px red;
+}
+
+

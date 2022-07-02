@@ -1,0 +1,65 @@
+[
+    {
+        "id":"c1",
+        "grandPrix": "Monaco",
+        "circuit": "Montecarlo",
+        "laps": "78",
+        "length": "3,337",
+        "bestLapTime": "1:12,909",
+        "pilot": "Lewis Hamilton"
+    },
+    {
+        "id":"c2",
+        "grandPrix": "Bahrein",
+        "circuit": "Sakhir",
+        "laps": "57",
+        "length": "6,299",
+        "bestLapTime": "1:27,264",
+        "pilot": "Lewis Hamilton"
+    },
+    {   
+        "id":"c3",
+        "grandPrix": "Australia",
+        "circuit": "Albert Park",
+        "laps": "58",
+        "length": "5,303",
+        "bestLapTime": "1:24,125",
+        "pilot": "Michael Schumacher"
+    },
+    {
+        "id":"c4",
+        "grandPrix": "Gran Bretaña",
+        "circuit": "Silverstone",
+        "laps": "52",
+        "length": "5,141",
+        "bestLapTime": "1:27,097",
+        "pilot": "Max Verstappen"
+    },
+    {
+        "id":"c5",
+        "grandPrix": "Emilia Romagna",
+        "circuit": "Imola",
+        "laps": "63",
+        "length": "4,959",
+        "bestLapTime": "1:15,484",
+        "pilot": "Lewis Hamilton"
+    },
+    {
+        "id":"c6",
+        "grandPrix": "Italia",
+        "circuit": "Monza",
+        "laps": "53",
+        "length": "5,793",
+        "bestLapTime": "1:21,046",
+        "pilot": "Barrichelo"
+    },
+    {
+        "id":"c7",
+        "grandPrix": "CoderHouse",
+        "circuit": "Curso de Javascript",
+        "laps": "7",
+        "length": "2,5",
+        "bestLapTime": "0:01",
+        "pilot": "Mateo Leiva"
+    }
+]
