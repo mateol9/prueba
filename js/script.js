@@ -223,7 +223,7 @@ const main = () =>{
     setTimeout(() => {
         createDropMenuItem();
         userSelection();
-    }, 500);
+    }, 5000);
     loadLS();
     calc();
     reset();
